@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="(default package)" size="1546,1736" id="" metadata="uml2-1.0" initialized="true" scrolledY="-5" tag="10" key="32303037303533312D313020636F757273656D73">
+  <children xsi:type="editmodel:ClassEditModel" name="StudentRegistrationController" location="15,0" size="230,117" id="com.ezen.cms.controller/StudentRegistrationController" runTimeClassModel="addnewstudent(Lorg.springframework.ui.Model;Lcom.ezen.cms.model.StudentRegistration;),studentregisterPage(Lorg.springframework.ui.Model;),getStudent(Lorg.springframework.ui.Model;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,54">
+      <children xsi:type="editmodel:MethodEditModel" name="addnewstudent" id="com.ezen.cms.controller/StudentRegistrationController#addnewstudent(Lorg.springframework.ui.Model;Lcom.ezen.cms.model.StudentRegistration;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStudent" id="com.ezen.cms.controller/StudentRegistrationController#getStudent(Lorg.springframework.ui.Model;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="studentregisterPage" id="com.ezen.cms.controller/StudentRegistrationController#studentregisterPage(Lorg.springframework.ui.Model;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.ezen.cms.service/CourseMasterService@coursemasterService+com.ezen.cms.controller/StudentRegistrationController@" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,117" id="com.ezen.cms.service/CourseMasterService@coursemasterService+com.ezen.cms.controller/StudentRegistrationController@|com.ezen.cms.controller/StudentRegistrationController#" attachSource="true" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="95,124" size="0,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="coursemasterService" location="87,0" id="com.ezen.cms.service/CourseMasterService@coursemasterService+com.ezen.cms.controller/StudentRegistrationController@|com.ezen.cms.service/CourseMasterService#coursemasterService" multiplicityLabel="//@children.0/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - coursemasterService" location="109,189" size="114,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="77,189" size="18,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.ezen.cms.service/DegreeMasterService@degreemasterService+com.ezen.cms.controller/StudentRegistrationController@" source="//@children.0" target="//@children.7" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="220,117" id="com.ezen.cms.service/DegreeMasterService@degreemasterService+com.ezen.cms.controller/StudentRegistrationController@|com.ezen.cms.controller/StudentRegistrationController#" attachSource="true" roleLabel="//@children.0/@sourceConnections.1/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="228,124" size="0,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="degreemasterService" location="0,10" id="com.ezen.cms.service/DegreeMasterService@degreemasterService+com.ezen.cms.controller/StudentRegistrationController@|com.ezen.cms.service/DegreeMasterService#degreemasterService" multiplicityLabel="//@children.0/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - degreemasterService" location="263,280" size="114,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="359,252" size="18,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.ezen.cms.service/StudentRegistrationService@studentregistrationService+com.ezen.cms.controller/StudentRegistrationController@" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="230,107" id="com.ezen.cms.service/StudentRegistrationService@studentregistrationService+com.ezen.cms.controller/StudentRegistrationController@|com.ezen.cms.controller/StudentRegistrationController#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="studentregistrationService" location="10,0" id="com.ezen.cms.service/StudentRegistrationService@studentregistrationService+com.ezen.cms.controller/StudentRegistrationController@|com.ezen.cms.service/StudentRegistrationService#studentregistrationService" multiplicityLabel="//@children.0/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.0/@sourceConnections.2/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - studentregistrationService" location="947,242" size="137,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="915,242" size="18,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.ezen.cms.controller/StudentRegistrationController-Soyatec::Import->com.ezen.cms.service/CourseMasterService*com.ezen.cms.controller/StudentRegistrationController->com.ezen.cms.service/CourseMasterService" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="107,117" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,15"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.ezen.cms.controller/StudentRegistrationController-Soyatec::Import->com.ezen.cms.service/DegreeMasterService*com.ezen.cms.controller/StudentRegistrationController->com.ezen.cms.service/DegreeMasterService" source="//@children.0" target="//@children.7" targetEnd="//@children.0/@sourceConnections.4/@children.2" label="//@children.0/@sourceConnections.4/@children.0" sourceEnd="//@children.0/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="230,112" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.ezen.cms.controller/StudentRegistrationController->com.ezen.cms.model/StudentRegistration*com.ezen.cms.controller/StudentRegistrationController-Soyatec::Import->com.ezen.cms.model/StudentRegistration" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.5/@children.2" label="//@children.0/@sourceConnections.5/@children.0" sourceEnd="//@children.0/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="212,117" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="17,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.ezen.cms.controller/StudentRegistrationController-Soyatec::Import->com.ezen.cms.service/StudentRegistrationService*com.ezen.cms.controller/StudentRegistrationController->com.ezen.cms.service/StudentRegistrationService" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.6/@children.2" label="//@children.0/@sourceConnections.6/@children.0" sourceEnd="//@children.0/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="220,117" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.ezen.cms.controller/StudentRegistrationController->org.springframework.ui/Model*com.ezen.cms.controller/StudentRegistrationController-Soyatec::Import->org.springframework.ui/Model" source="//@children.0" target="//@children.8" targetEnd="//@children.0/@sourceConnections.7/@children.2" label="//@children.0/@sourceConnections.7/@children.0" sourceEnd="//@children.0/@sourceConnections.7/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="230,58" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,58"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.5" name="StudentRegistration" location="210,225" size="167,305" id="com.ezen.cms.model/StudentRegistration" runTimeClassModel="email_id,course_id,role,payment_status,s_middle_name,student_id,contact_number,enrollment_id,password,s_last_name,degree_id,date_time,s_first_name,status">
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,252">
+      <children xsi:type="editmodel:AttributeEditModel" name="contact_number" id="com.ezen.cms.model/StudentRegistration#contact_number"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="course_id" id="com.ezen.cms.model/StudentRegistration#course_id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="date_time" id="com.ezen.cms.model/StudentRegistration#date_time"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="degree_id" id="com.ezen.cms.model/StudentRegistration#degree_id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="email_id" id="com.ezen.cms.model/StudentRegistration#email_id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="enrollment_id" id="com.ezen.cms.model/StudentRegistration#enrollment_id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="password" id="com.ezen.cms.model/StudentRegistration#password"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="payment_status" id="com.ezen.cms.model/StudentRegistration#payment_status"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="role" id="com.ezen.cms.model/StudentRegistration#role"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="s_first_name" id="com.ezen.cms.model/StudentRegistration#s_first_name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="s_last_name" id="com.ezen.cms.model/StudentRegistration#s_last_name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="s_middle_name" id="com.ezen.cms.model/StudentRegistration#s_middle_name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="status" id="com.ezen.cms.model/StudentRegistration#status"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="student_id" id="com.ezen.cms.model/StudentRegistration#student_id"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.0" name="StudentRegistrationDao" location="510,0" size="310,257" id="com.ezen.cms.dao/StudentRegistrationDao" runTimeClassModel="setEnrollmentId(Ljava.lang.String;I),addStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;),upStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;),getenrolid(Ljava.lang.String;Ljava.lang.String;),getupdatebyid(I),updatePaymentStatusStudentRegistrationByStudentId(II),listStudentRegistration(),getStudentRegistrationByStudentId(I),getStudentRegistrationByEnrollId(Ljava.lang.String;),updateStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="287,180">
+      <children xsi:type="editmodel:MethodEditModel" name="addStudentRegistration" id="com.ezen.cms.dao/StudentRegistrationDao#addStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStudentRegistrationByEnrollId" id="com.ezen.cms.dao/StudentRegistrationDao#getStudentRegistrationByEnrollId(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStudentRegistrationByStudentId" id="com.ezen.cms.dao/StudentRegistrationDao#getStudentRegistrationByStudentId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getenrolid" id="com.ezen.cms.dao/StudentRegistrationDao#getenrolid(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getupdatebyid" id="com.ezen.cms.dao/StudentRegistrationDao#getupdatebyid(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listStudentRegistration" id="com.ezen.cms.dao/StudentRegistrationDao#listStudentRegistration()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEnrollmentId" id="com.ezen.cms.dao/StudentRegistrationDao#setEnrollmentId(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="upStudentRegistration" id="com.ezen.cms.dao/StudentRegistrationDao#upStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updatePaymentStatusStudentRegistrationByStudentId" id="com.ezen.cms.dao/StudentRegistrationDao#updatePaymentStatusStudentRegistrationByStudentId(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateStudentRegistration" id="com.ezen.cms.dao/StudentRegistrationDao#updateStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="StudentRegistrationDaoImpl" location="915,0" size="310,243" id="com.ezen.cms.dao/StudentRegistrationDaoImpl" runTimeClassModel="setEnrollmentId(Ljava.lang.String;I),upStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;),addStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;),getenrolid(Ljava.lang.String;Ljava.lang.String;),getupdatebyid(I),updatePaymentStatusStudentRegistrationByStudentId(II),getStudentRegistrationByStudentId(I),listStudentRegistration(),getStudentRegistrationByEnrollId(Ljava.lang.String;),updateStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="287,180">
+      <children xsi:type="editmodel:MethodEditModel" name="addStudentRegistration" id="com.ezen.cms.dao/StudentRegistrationDaoImpl#addStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStudentRegistrationByEnrollId" id="com.ezen.cms.dao/StudentRegistrationDaoImpl#getStudentRegistrationByEnrollId(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStudentRegistrationByStudentId" id="com.ezen.cms.dao/StudentRegistrationDaoImpl#getStudentRegistrationByStudentId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getenrolid" id="com.ezen.cms.dao/StudentRegistrationDaoImpl#getenrolid(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getupdatebyid" id="com.ezen.cms.dao/StudentRegistrationDaoImpl#getupdatebyid(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listStudentRegistration" id="com.ezen.cms.dao/StudentRegistrationDaoImpl#listStudentRegistration()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEnrollmentId" id="com.ezen.cms.dao/StudentRegistrationDaoImpl#setEnrollmentId(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="upStudentRegistration" id="com.ezen.cms.dao/StudentRegistrationDaoImpl#upStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updatePaymentStatusStudentRegistrationByStudentId" id="com.ezen.cms.dao/StudentRegistrationDaoImpl#updatePaymentStatusStudentRegistrationByStudentId(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateStudentRegistration" id="com.ezen.cms.dao/StudentRegistrationDaoImpl#updateStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.ezen.cms.dao/StudentRegistrationDao&lt;-com.ezen.cms.dao/StudentRegistrationDaoImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="310,121"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.0/@sourceConnections.2 //@children.0/@sourceConnections.6" name="StudentRegistrationService" location="930,263" size="310,257" id="com.ezen.cms.service/StudentRegistrationService" runTimeClassModel="setEnrollmentId(Ljava.lang.String;I),addStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;),upStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;),getenrolid(Ljava.lang.String;Ljava.lang.String;),updatePaymentStatusStudentRegistrationByStudentId(II),getupdatebyid(I),listStudentRegistration(),getStudentRegistrationByStudentId(I),getStudentRegistrationByEnrollId(Ljava.lang.String;),updateStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="287,180">
+      <children xsi:type="editmodel:MethodEditModel" name="addStudentRegistration" id="com.ezen.cms.service/StudentRegistrationService#addStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStudentRegistrationByEnrollId" id="com.ezen.cms.service/StudentRegistrationService#getStudentRegistrationByEnrollId(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStudentRegistrationByStudentId" id="com.ezen.cms.service/StudentRegistrationService#getStudentRegistrationByStudentId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getenrolid" id="com.ezen.cms.service/StudentRegistrationService#getenrolid(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getupdatebyid" id="com.ezen.cms.service/StudentRegistrationService#getupdatebyid(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listStudentRegistration" id="com.ezen.cms.service/StudentRegistrationService#listStudentRegistration()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEnrollmentId" id="com.ezen.cms.service/StudentRegistrationService#setEnrollmentId(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="upStudentRegistration" id="com.ezen.cms.service/StudentRegistrationService#upStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updatePaymentStatusStudentRegistrationByStudentId" id="com.ezen.cms.service/StudentRegistrationService#updatePaymentStatusStudentRegistrationByStudentId(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateStudentRegistration" id="com.ezen.cms.service/StudentRegistrationService#updateStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="StudentRegistrationServiceImpl" location="570,300" size="310,243" id="com.ezen.cms.service/StudentRegistrationServiceImpl" runTimeClassModel="setEnrollmentId(Ljava.lang.String;I),upStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;),addStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;),getenrolid(Ljava.lang.String;Ljava.lang.String;),getupdatebyid(I),updatePaymentStatusStudentRegistrationByStudentId(II),listStudentRegistration(),getStudentRegistrationByStudentId(I),getStudentRegistrationByEnrollId(Ljava.lang.String;),updateStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="287,180">
+      <children xsi:type="editmodel:MethodEditModel" name="addStudentRegistration" id="com.ezen.cms.service/StudentRegistrationServiceImpl#addStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStudentRegistrationByEnrollId" id="com.ezen.cms.service/StudentRegistrationServiceImpl#getStudentRegistrationByEnrollId(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStudentRegistrationByStudentId" id="com.ezen.cms.service/StudentRegistrationServiceImpl#getStudentRegistrationByStudentId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getenrolid" id="com.ezen.cms.service/StudentRegistrationServiceImpl#getenrolid(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getupdatebyid" id="com.ezen.cms.service/StudentRegistrationServiceImpl#getupdatebyid(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listStudentRegistration" id="com.ezen.cms.service/StudentRegistrationServiceImpl#listStudentRegistration()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEnrollmentId" id="com.ezen.cms.service/StudentRegistrationServiceImpl#setEnrollmentId(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="upStudentRegistration" id="com.ezen.cms.service/StudentRegistrationServiceImpl#upStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updatePaymentStatusStudentRegistrationByStudentId" id="com.ezen.cms.service/StudentRegistrationServiceImpl#updatePaymentStatusStudentRegistrationByStudentId(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateStudentRegistration" id="com.ezen.cms.service/StudentRegistrationServiceImpl#updateStudentRegistration(Lcom.ezen.cms.model.StudentRegistration;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.ezen.cms.service/StudentRegistrationService&lt;-com.ezen.cms.service/StudentRegistrationServiceImpl" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="310,110" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,147"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.0/@sourceConnections.3" name="CourseMasterService" location="15,210" size="176,167" id="com.ezen.cms.service/CourseMasterService" runTimeClassModel="updateCourseMaster(I),getupdatebyid(I),listCourseMaster(),addCourseMaster(Lcom.ezen.cms.model.CourseMaster;),upCourseMaster(Lcom.ezen.cms.model.CourseMaster;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,90">
+      <children xsi:type="editmodel:MethodEditModel" name="addCourseMaster" id="com.ezen.cms.service/CourseMasterService#addCourseMaster(Lcom.ezen.cms.model.CourseMaster;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getupdatebyid" id="com.ezen.cms.service/CourseMasterService#getupdatebyid(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listCourseMaster" id="com.ezen.cms.service/CourseMasterService#listCourseMaster()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="upCourseMaster" id="com.ezen.cms.service/CourseMasterService#upCourseMaster(Lcom.ezen.cms.model.CourseMaster;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateCourseMaster" id="com.ezen.cms.service/CourseMasterService#updateCourseMaster(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.0/@sourceConnections.4" name="DegreeMasterService" location="375,263" size="178,185" id="com.ezen.cms.service/DegreeMasterService" runTimeClassModel="getupdatebyid(I),listdegree(),addDegreeMaster(Lcom.ezen.cms.model.DegreeMaster;),upDegreeMaster(Lcom.ezen.cms.model.DegreeMaster;),listDegreeMaster(),updateDegreeMaster(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,108">
+      <children xsi:type="editmodel:MethodEditModel" name="addDegreeMaster" id="com.ezen.cms.service/DegreeMasterService#addDegreeMaster(Lcom.ezen.cms.model.DegreeMaster;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getupdatebyid" id="com.ezen.cms.service/DegreeMasterService#getupdatebyid(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listDegreeMaster" id="com.ezen.cms.service/DegreeMasterService#listDegreeMaster()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listdegree" id="com.ezen.cms.service/DegreeMasterService#listdegree()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="upDegreeMaster" id="com.ezen.cms.service/DegreeMasterService#upDegreeMaster(Lcom.ezen.cms.model.DegreeMaster;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateDegreeMaster" id="com.ezen.cms.service/DegreeMasterService#updateDegreeMaster(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.7" name="Model" location="315,0" size="136,203" id="org.springframework.ui/Model" runTimeClassModel="addAttribute(Ljava.lang.Object;),addAttribute(Ljava.lang.String;Ljava.lang.Object;),addAllAttributes(Ljava.util.Map;),containsAttribute(Ljava.lang.String;),mergeAttributes(Ljava.util.Map;),addAllAttributes(Ljava.util.Collection;),asMap()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,126">
+      <children xsi:type="editmodel:MethodEditModel" name="addAllAttributes" id="org.springframework.ui/Model#addAllAttributes(Ljava.util.Map;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAllAttributes" id="org.springframework.ui/Model#addAllAttributes(Ljava.util.Collection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAttribute" id="org.springframework.ui/Model#addAttribute(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAttribute" id="org.springframework.ui/Model#addAttribute(Ljava.lang.String;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="asMap" id="org.springframework.ui/Model#asMap()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAttribute" id="org.springframework.ui/Model#containsAttribute(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mergeAttributes" id="org.springframework.ui/Model#mergeAttributes(Ljava.util.Map;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
